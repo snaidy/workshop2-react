@@ -21,6 +21,14 @@
       display: flex;
       flex-direction: row;
       gap: 20px;
+      & span {
+        cursor: pointer;
+        &:hover {
+          text-decoration: none;
+          border-bottom: 2px solid $color-primary;
+          
+        }
+      }
     }
   }
 
@@ -28,10 +36,18 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
-    
+
     &-img {
       display: flex;
       gap: 20px;
+      .icon{
+        cursor: pointer;
+        &:hover {
+          text-decoration: none;
+          border-bottom: 2px solid $color-primary;
+          
+        }
+      }
     }
     &-text {
       font-weight: 100;
