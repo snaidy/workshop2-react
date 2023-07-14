@@ -1,0 +1,27 @@
+@import './variables.scss';
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $color-secondary;
+    color: #FFFF;
+    width: 375px;
+    align-items: center;
+    padding: 60px 40px;
+    font-size: 15px;
+    gap: 20px;
+
+    & h1{
+        font-family: 'Alata', sans-serif;
+        font-weight: 600;
+    }
+    &__sub{
+        font-weight: 900;
+    }
+    &__text{
+        font-weight: 100;
+    }
+    &__img{
+        display: flex;
+        gap: 10px;
+    }
+}
