@@ -4,11 +4,6 @@
     display: flex;
     position: relative;
 
-    img{
-        width: 250px;
-        height: auto;
-    }
-
     &__caption{
         position: absolute;
         color: $color-primary;
@@ -26,4 +21,16 @@
         bottom: 14%;
         left: 5%;
     }
+}
+
+.figure:hover {
+    cursor: pointer;
+}
+
+.figure:hover figcaption{
+    color: $color-secondary;
+}
+
+.figure:hover img{
+    opacity: 0.5;
 }

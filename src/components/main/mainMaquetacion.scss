@@ -63,10 +63,10 @@
 
     &__figure{
         display: flex;
-        img{
-            width: 60%;
-            height: auto;
-        }
+        // img{
+        //     width: 80;
+        //     height: auto;
+        // }
     }
 
     &container{
@@ -83,8 +83,9 @@
         height: auto;
         padding: 50px;
         position: absolute;
-        top: 28%;
+        top: 45%;
         left: 45%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
         h2 {
             align-items: center;
@@ -101,7 +102,7 @@
 
     &__menu{
         display: flex;
-        padding: 20% 0 5% 0;
+        padding: 10% 0 5% 0;
         justify-content: space-between;
 
         h2{
