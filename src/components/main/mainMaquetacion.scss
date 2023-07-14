@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+    padding: 20px;
+
+    &__interactive-figure {
+        display: flex;
+
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__parrafo {
+        display: flex;
+        flex-direction: column;
+
+        & h2 {
+            align-items: center;
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+
+        &-figure {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+
+            & img {
+                width: 100%;
+                height: auto;
+            }
+
+            &figcaption{
+                position: absolute;
+            }
+        }
+    }
+}
