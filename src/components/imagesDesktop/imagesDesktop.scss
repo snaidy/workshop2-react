@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.figure{
+    display: flex;
+    position: relative;
+
+    img{
+        width: 250px;
+        height: auto;
+    }
+
+    &__caption{
+        position: absolute;
+        color: $color-primary;
+        font-size: 25px;
+        font-weight: 600;
+        bottom: 20%;
+        left: 5%;
+    }
+
+    &__caption2{
+        position: absolute;
+        color: $color-primary;
+        font-size: 25px;
+        font-weight: 600;
+        bottom: 14%;
+        left: 5%;
+    }
+}
