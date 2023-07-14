@@ -1,0 +1,134 @@
+@import '../../styles/variables.scss';
+
+.main {
+    justify-content: center;
+    width: 375px;
+    padding: 20px;
+
+    &__interactive-figure {
+        display: flex;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__parrafo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 15% 10% 0 10%;
+
+        h2 {
+            align-items: center;
+            font-family: 'Alata', sans-serif;
+            font-weight: 500;
+        }
+
+        p {
+            font-weight: 600;
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+        h2{
+            font-family: 'Alata', sans-serif;
+            font-weight: 500;
+        }
+
+        &-button{
+            font-weight: 900;
+            letter-spacing: 2px;
+            border: 2px solid $color-terciary;
+            padding: 10px 40px;
+        }
+
+        &-button:hover{
+            cursor: pointer;
+            background-color: $color-secondary;
+            color: $color-primary;
+        }
+    }
+}
+
+.main-desktop{
+    justify-content: center;
+    padding: 60px; 
+
+    &__figure{
+        display: flex;
+        img{
+            width: 60%;
+            height: auto;
+        }
+    }
+
+    &container{
+        display: flex;
+        padding: 10px 0 20px 0;
+        position: relative;
+    }
+
+    &__parrafo{
+        display: flex;
+        flex-direction: column;
+        background-color: $color-primary;
+        width: 40%;
+        height: auto;
+        padding: 50px;
+        position: absolute;
+        top: 28%;
+        left: 45%;
+
+        h2 {
+            align-items: center;
+            font-family: 'Alata', sans-serif;
+            font-weight: 500;
+            font-size: xx-large;
+            padding: 20px 0;
+        }
+
+        p {
+            font-weight: 600;
+        }
+    }
+
+    &__menu{
+        display: flex;
+        padding: 20% 0 5% 0;
+        justify-content: space-between;
+
+        h2{
+            font-family: 'Alata', sans-serif;
+            font-weight: 500;
+        }
+
+        &__btn{
+            font-weight: 900;
+            letter-spacing: 2px;
+            border: 2px solid $color-terciary;
+            padding: 10px 40px;
+            font-weight: 900;
+        }
+
+        &__btn:hover{
+            cursor: pointer;
+            background-color: $color-secondary;
+            color: $color-primary;
+        }
+        
+    }
+
+    &__figures{
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
