@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@100&family=Open+Sans:ital@1&display=swap");
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  width: 375px;
+  align-items: center;
+  padding: 60px 40px;
+  font-size: 15px;
+  gap: 20px;
+}
+.footer h1 {
+  font-family: "Alata", sans-serif;
+  font-weight: 600;
+}
+.footer__sub {
+  font-weight: 900;
+}
+.footer__text {
+  font-weight: 100;
+}
+.footer__img {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=footer.css.map */
