@@ -1,0 +1,67 @@
+@import "../../styles/variables.scss";
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .logo {
+    top: 20px;
+    right: 20px;
+    gap: 10px;
+    margin: 0;
+    gap: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    &__superior {
+      display: flex;
+      padding: 10px;
+      margin-top: 20px;
+      gap: 190px;
+    }
+    h2 {
+      font-family: "Alata", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+      margin-bottom: 10px;
+      
+    }
+
+    .menu-icon {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .parr {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 2.4;
+      text-align: left;
+      padding: 10px 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+    }
+  }
+  
+}
+.menuMob{
+    position: absolute;
+  }
