@@ -14,6 +14,17 @@
         
         
       }
+      .cabecera{
+        background-color: rgb(141, 49, 228);
+        margin-bottom: 400px;
+        display: none;
+      }
+
+      .svg{
+        width: 2em;
+        height: 2em;
+        fill: antiquewhite;
+      }
       
       nav ul {
         display: flex;
@@ -48,6 +59,38 @@
         padding-bottom: 20px;
         padding-top: 20px;
         padding-left: 20px;
+      }
+
+      @media screen and (max-width:380px) {
+
+       .cabecera{
+        display: flex;
+       }
+
+       nav ul{
+        width: 100%;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 0vh;
+        overflow: hidden;
+        opacity: 0;
+        transition: all .5s ease;
+        background-color: black;
+        background-size: cover;
+        padding: 5rem;
+
+       }
+
+       nav ul.isActive{
+        height: 50vh;
+        opacity: 1;
+
+       }
+        
       }
 
       
